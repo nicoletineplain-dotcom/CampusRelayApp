@@ -136,7 +136,7 @@ dependencies {
     // ---------------------------------------------------------
 
     implementation(
-        libs.kotlinx.coroutines.android.v1110
+        libs.google.kotlinx.coroutines.android.v1110
     )
 
     // ---------------------------------------------------------
@@ -180,7 +180,7 @@ dependencies {
     )
 
     implementation(
-        libs.google.firebase.messaging
+        libs.firebase.messaging
     )
 
     // ---------------------------------------------------------
