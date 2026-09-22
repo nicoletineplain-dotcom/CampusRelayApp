@@ -114,6 +114,7 @@ androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "b
 
 # Firebase
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseBom" }
 
 # QR Scanner
 core-v354 = { module = "com.google.zxing:core", version.ref = "core" }
