@@ -58,10 +58,10 @@ dependencies {
     // AndroidX
     // ---------------------------------------------------------
 
-    implementation("androidx.core:core-ktx:1.17.0")
-    implementation("androidx.appcompat:appcompat:1.8.0")
-    implementation("androidx.activity:activity-ktx:1.13.0")
-    implementation("androidx.fragment:fragment-ktx:1.8.9")
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.fragment.ktx)
 
     implementation(
         libs.androidx.lifecycle.runtime.ktx.v2110
@@ -102,8 +102,6 @@ dependencies {
     // ---------------------------------------------------------
     // Room (from old project)
     // ---------------------------------------------------------
-
-    val roomVersion = "2.8.5"
 
     implementation(
         libs.androidx.room.runtime
