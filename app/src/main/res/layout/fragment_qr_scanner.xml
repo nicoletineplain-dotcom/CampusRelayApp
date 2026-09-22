@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/campus_green">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:gravity="center_vertical"
+
+        android:paddingStart="20dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="10dp"
+
+            android:text="Scan QR"
+
+            android:textColor="@color/text_primary"
+
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!-- CAMERA PREVIEW GOES HERE -->
+
+    <FrameLayout
+
+        android:id="@+id/qrScannerFrame"
+
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+
+        android:layout_gravity="center"
+
+        android:background="@drawable/bg_qr_scanner">
+
+        <ImageView
+
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+
+            android:layout_gravity="center"
+
+            android:src="@drawable/ic_qr_code"
+
+            android:tint="@color/campus_mint" />
+
+    </FrameLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:layout_marginBottom="100dp"
+
+        android:text="Point your camera at a QR code"
+
+        android:textColor="@color/text_secondary" />
+
+</FrameLayout>

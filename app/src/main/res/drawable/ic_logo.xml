@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Forest-green background -->
+    <path
+        android:fillColor="#0F3B2D"
+        android:pathData="M0,0h512v512H0z" />
+
+    <!-- Mint leaf -->
+    <path
+        android:fillColor="#91D5B0"
+        android:pathData="
+            M172,341
+            C150,287 166,226 216,190
+            C253,163 303,160 340,171
+            C351,214 341,260 312,297
+            C276,342 224,357 172,341
+            Z" />
+
+    <!-- Leaf vein -->
+    <path
+        android:strokeColor="#14352A"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M196,317 L316,195" />
+
+    <!-- Gold signal -->
+    <path
+        android:strokeColor="#E2A923"
+        android:strokeWidth="9"
+        android:strokeLineCap="butt"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M294,121
+            C312,88 347,76 380,83
+            C401,87 419,99 432,119" />
+
+    <!-- Inner signal -->
+    <path
+        android:strokeColor="#E2A923"
+        android:strokeWidth="9"
+        android:strokeLineCap="butt"
+        android:fillColor="@android:color/transparent"
+        android:pathData="
+            M325,136
+            C340,113 370,109 390,131" />
+
+</vector>

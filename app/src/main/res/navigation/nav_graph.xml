@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/nav_graph"
+
+    app:startDestination="@id/loginFragment">
+
+    <!-- LOGIN -->
+
+    <fragment
+
+        android:id="@+id/loginFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.login.LoginFragment"
+
+        android:label="Login">
+
+        <action
+
+            android:id=
+                "@+id/action_loginFragment_to_homeFragment"
+
+            app:destination=
+                "@id/homeFragment" />
+
+    </fragment>
+
+
+    <!-- HOME -->
+
+    <fragment
+
+        android:id="@+id/homeFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.home.HomeFragment"
+
+        android:label="Home">
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_createDeliveryFragment"
+
+            app:destination=
+                "@id/createDeliveryFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_marketplaceFragment"
+
+            app:destination=
+                "@id/marketplaceFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_carpoolFragment"
+
+            app:destination=
+                "@id/carpoolFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_qrScannerFragment"
+
+            app:destination=
+                "@id/qrScannerFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_ecoLeaderboardFragment"
+
+            app:destination=
+                "@id/ecoLeaderboardFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_profileFragment"
+
+            app:destination=
+                "@id/profileFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_homeFragment_to_settingsFragment"
+
+            app:destination=
+                "@id/settingsFragment" />
+
+    </fragment>
+
+
+    <!-- DELIVERY -->
+
+    <fragment
+
+        android:id="@+id/deliveryFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.delivery.CreateDeliveryFragment"
+
+        android:label="Deliveries">
+
+        <action
+
+            android:id=
+                "@+id/action_deliveryFragment_to_createDeliveryFragment"
+
+            app:destination=
+                "@id/createDeliveryFragment" />
+
+        <action
+
+            android:id=
+                "@+id/action_deliveryFragment_to_deliveryDetailFragment"
+
+            app:destination=
+                "@id/deliveryDetailFragment" />
+
+    </fragment>
+
+
+    <fragment
+
+        android:id="@+id/createDeliveryFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.delivery.CreateDeliveryFragment"
+
+        android:label="Create delivery" />
+
+
+    <fragment
+
+        android:id="@+id/deliveryDetailFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.delivery.DeliveryDetailFragment"
+
+        android:label="Delivery detail" />
+
+
+    <!-- MARKETPLACE -->
+
+    <fragment
+
+        android:id="@+id/marketplaceFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.marketplace.MarketplaceFragment"
+
+        android:label="Marketplace">
+
+        <action
+
+            android:id=
+                "@+id/action_marketplaceFragment_to_createListingFragment"
+
+            app:destination=
+                "@id/createListingFragment" />
+
+    </fragment>
+
+
+    <fragment
+
+        android:id="@+id/createListingFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.marketplace.CreateListingFragment"
+
+        android:label="Create listing" />
+
+
+    <!-- CARPOOL -->
+
+    <fragment
+
+        android:id="@+id/carpoolFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.carpool.CarpoolFragment"
+
+        android:label="Carpool">
+
+        <action
+
+            android:id=
+                "@+id/action_carpoolFragment_to_createRideFragment"
+
+            app:destination=
+                "@id/createRideFragment" />
+
+    </fragment>
+
+
+    <fragment
+
+        android:id="@+id/createRideFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.carpool.CreateRideFragment"
+
+        android:label="Create ride" />
+
+
+    <!-- PROFILE -->
+
+    <fragment
+
+        android:id="@+id/profileFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.profile.ProfileFragment"
+
+        android:label="Profile" />
+
+
+    <!-- SETTINGS -->
+
+    <fragment
+
+        android:id="@+id/settingsFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.settings.SettingsFragment"
+
+        android:label="Settings" />
+
+
+    <!-- QR -->
+
+    <fragment
+
+        android:id="@+id/generateQrFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.qr.GenerateQrFragment"
+
+        android:label="Generate QR" />
+
+
+    <fragment
+
+        android:id="@+id/qrScannerFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.qr.QrScannerFragment"
+
+        android:label="QR verification" />
+
+
+    <!-- LEADERBOARD -->
+
+    <fragment
+
+        android:id="@+id/ecoLeaderboardFragment"
+
+        android:name=
+            "com.example.campusrelayapp.ui.leaderboard.EcoLeaderboardFragment"
+
+        android:label="Eco leaderboard" />
+
+</navigation>

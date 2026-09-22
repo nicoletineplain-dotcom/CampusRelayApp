@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/relay_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Ride"
+        android:textColor="@color/relay_forest"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/edtOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Origin"
+        android:inputType="text"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:inputType="text"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available seats"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price per seat"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Ride" />
+
+</LinearLayout>

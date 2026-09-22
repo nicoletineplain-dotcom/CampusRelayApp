@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style
+        name="Base.Theme.CampusRelayApp"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Font -->
+        <item name="android:fontFamily">sans</item>
+
+        <!-- Status bar -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">
+            @color/campus_green_dark
+        </item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">
+            @color/campus_green_deep
+        </item>
+
+        <!-- Application background -->
+        <item name="android:windowBackground">
+            @color/campus_green
+        </item>
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">
+            @color/campus_mint
+        </item>
+
+        <item name="colorOnPrimary">
+            @color/campus_green_deep
+        </item>
+
+        <item name="colorPrimaryContainer">
+            @color/campus_mint_light
+        </item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">
+            @color/campus_gold
+        </item>
+
+        <item name="colorOnSecondary">
+            @color/campus_green_deep
+        </item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">
+            @color/surface_green
+        </item>
+
+        <item name="colorOnSurface">
+            @color/text_primary
+        </item>
+
+        <!-- Accent -->
+        <item name="android:colorAccent">
+            @color/campus_gold
+        </item>
+
+    </style>
+
+    <!-- Main Application Theme -->
+    <style
+        name="Theme.CampusRelayApp"
+        parent="Base.Theme.CampusRelayApp" />
+
+    <!-- Primary Button Style -->
+    <style name="CampusRelay.Button">
+
+        <item name="android:fontFamily">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+
+        <item name="android:textColor">
+            @color/campus_green_deep
+        </item>
+
+        <item name="android:minHeight">52dp</item>
+
+        <item name="android:background">
+            @drawable/bg_primary_button
+        </item>
+
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+</resources>

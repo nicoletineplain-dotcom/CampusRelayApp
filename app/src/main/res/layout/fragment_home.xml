@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/relay_background">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Good morning"
+
+            android:textColor="@color/relay_muted"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="2dp"
+
+            android:text="CampusRelay"
+
+            android:textColor="@color/relay_forest"
+
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+        <!-- Eco card -->
+
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="18dp"
+
+            app:cardBackgroundColor="@color/relay_forest"
+
+            app:cardCornerRadius="22dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+
+                android:padding="20dp">
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Eco impact"
+
+                        android:textColor="@color/relay_mint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="4dp"
+
+                        android:text="12.6 kg CO₂"
+
+                        android:textColor="@color/relay_surface"
+
+                        android:textSize="26sp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="saved this month"
+
+                        android:textColor="@color/relay_surface" />
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="↗"
+
+                    android:textColor="@color/relay_gold"
+
+                    android:textSize="48sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+
+            android:id="@+id/txtDeliveryCount"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="24dp"
+
+            android:text="0 active deliveries"
+
+            android:textColor="@color/relay_forest"
+
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+
+            android:columnCount="2">
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnDelivery"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Deliver" />
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnMarketplace"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Marketplace" />
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnCarpool"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Carpool" />
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnQr"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Verify QR" />
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnLeaderboard"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Leaderboard" />
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/btnProfile"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_columnWeight="1"
+
+                android:text="Profile" />
+
+        </GridLayout>
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/btnSettings"
+
+            style="@style/Widget.Material3.Button.TextButton"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="4dp"
+
+            android:text="Settings" />
+
+    </LinearLayout>
+
+</ScrollView>

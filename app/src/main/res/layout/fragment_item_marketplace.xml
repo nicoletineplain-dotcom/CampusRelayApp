@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+
+    android:layout_marginBottom="10dp"
+
+    android:background="@drawable/bg_card"
+
+    android:gravity="center_vertical"
+
+    android:padding="10dp"
+
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imgListing"
+
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+
+        android:background="@drawable/bg_input"
+
+        android:padding="15dp"
+
+        android:src="@drawable/ic_leaf"
+
+        android:tint="@color/campus_mint" />
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:layout_marginStart="12dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Calculus Textbook"
+
+            android:textColor="@color/text_primary"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:text="R150"
+
+            android:textColor="@color/campus_mint"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="2dp"
+
+            android:text="2 days ago"
+
+            android:textColor="@color/text_muted"
+
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btnFavorite"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:background="@android:color/transparent"
+
+        android:src="@drawable/ic_favorite"
+
+        android:tint="@color/campus_gold"
+
+        android:contentDescription="Favourite" />
+
+</LinearLayout>

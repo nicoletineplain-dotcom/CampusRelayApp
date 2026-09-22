@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style
+        name="Base.Theme.CampusRelayApp"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Font -->
+        <item name="android:fontFamily">sans</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">
+            @color/campus_green_dark
+        </item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">
+            @color/campus_green_deep
+        </item>
+
+        <item name="android:windowLightStatusBar">
+            false
+        </item>
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">
+            @color/campus_mint
+        </item>
+
+        <item name="colorPrimaryContainer">
+            @color/surface_green_light
+        </item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">
+            @color/campus_gold
+        </item>
+
+        <!-- Surface -->
+        <item name="colorSurface">
+            @color/surface_green
+        </item>
+
+        <!-- Text colors -->
+        <item name="colorOnSurface">
+            @color/text_primary
+        </item>
+
+        <item name="colorOnPrimary">
+            @color/campus_green_deep
+        </item>
+
+        <item name="colorOnSecondary">
+            @color/campus_green_deep
+        </item>
+
+        <!-- Legacy accent support -->
+        <item name="android:colorAccent">
+            @color/campus_gold
+        </item>
+
+    </style>
+
+    <!-- Main application theme -->
+    <style
+        name="Theme.CampusRelayApp"
+        parent="Base.Theme.CampusRelayApp" />
+
+</resources>

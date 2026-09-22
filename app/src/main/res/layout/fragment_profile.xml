@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:padding="24dp"
+
+    android:background="@color/relay_background"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+
+        android:src="@drawable/ic_logo"
+
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+
+        android:id="@+id/txtName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="18dp"
+
+        android:textColor="@color/relay_forest"
+
+        android:textSize="26sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/txtEmail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/relay_muted" />
+
+    <TextView
+
+        android:id="@+id/txtEco"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+
+        android:textColor="@color/relay_gold"
+
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+</LinearLayout>

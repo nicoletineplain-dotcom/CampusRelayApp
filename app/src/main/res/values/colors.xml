@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Existing Colors -->
+
+    <color name="campus_green">#073B2D</color>
+    <color name="campus_green_dark">#04291F</color>
+    <color name="campus_green_deep">#021E17</color>
+
+    <color name="surface_green">#0A4A38</color>
+    <color name="surface_green_light">#0D5A43</color>
+    <color name="surface_border">#176A50</color>
+
+    <color name="campus_mint">#8ED8B3</color>
+    <color name="campus_mint_light">#A7E8C7</color>
+
+    <color name="campus_gold">#E7B52F</color>
+    <color name="campus_gold_light">#F0C94D</color>
+
+    <color name="text_primary">#F4FFF9</color>
+    <color name="text_secondary">#B7D5C8</color>
+    <color name="text_muted">#7FA99A</color>
+
+    <color name="success">#8ED8B3</color>
+    <color name="warning">#E7B52F</color>
+    <color name="error">#E57373</color>
+
+    <!-- New Theme Colors -->
+
+    <color name="relay_forest">#0F3B2D</color>
+    <color name="relay_forest_dark">#08281F</color>
+    <color name="relay_forest_soft">#174B3A</color>
+
+    <color name="relay_mint">#91D5B0</color>
+    <color name="relay_mint_soft">#E8F5EE</color>
+
+    <color name="relay_gold">#E2A923</color>
+    <color name="relay_gold_soft">#FFF4D5</color>
+
+    <color name="relay_background">#F7FBF8</color>
+    <color name="relay_surface">#FFFFFF</color>
+
+    <color name="relay_text">#14352A</color>
+    <color name="relay_muted">#668177</color>
+
+    <color name="relay_error">#BA1A1A</color>
+
+    <color name="transparent">#00000000</color>
+
+</resources>

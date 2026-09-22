@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CampusRelay</string>
+
+    <string name="app_tagline">
+        Move smarter. Share locally.
+    </string>
+
+    <string name="sign_in">
+        Sign in with university SSO
+    </string>
+
+    <string name="continue_biometric">
+        Continue with biometrics
+    </string>
+
+    <string name="home">Home</string>
+
+    <string name="deliveries">Deliveries</string>
+
+    <string name="marketplace">Marketplace</string>
+
+    <string name="carpool">Carpool</string>
+
+    <string name="profile">Profile</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="leaderboard">
+        Eco leaderboard
+    </string>
+
+    <string name="qr_verify">
+        QR verification
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
